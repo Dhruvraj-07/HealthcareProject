@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .title {
+    flex: 1; 
+    margin-left: 200px;
+  }
+  
+  .title h1 {
+    font-size: 60px; 
+  }
+  
+  .logo {
+    max-width: 200px;
+    margin-left: auto; 
+    margin-right: 200px; 
+  }
+
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tabs a {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #f0f0f0;
+    color: #333
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tabs a:hover {
+    background-color: #ddd;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about {
+    margin-top: 40px; 
+    text-align: center;
+    font-size: 24px; 
+  }
+  
+  .images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px; 
+  }
+  
+  .images img {
+    max-width: 200px;
+    margin: 0 10px;
+  }
+ 
+  footer{
+    margin-top: 20px;
+  }
+  .foot-panel1
+  {
+    background-color: #37475a ;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.15rem;
+  }
+  .foot-panel2
+  {
+    background-color: #222f3d ;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  ul
+  {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  ul a
+  {
+    margin-top: 8px;
+    font-size: 1.25rem;
+    display: block;
+    color: #dddddd;
+  }
+  
+  .foot-panel3
+  {
+    color: white;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .foot-logo
+  {
+    background-image: url("logo-removebg-preview.png");
+    background-size: cover;
+    height: 100px;
+    width: 120px;
+  
+  }
+  .foot-panel4
+  {
+    background-color: #131921;
+     color: white;
+     height: 80px;
+  }
+  .pages
+  {
+    font-size: 0.75rem;
+    text-align: center;
+    padding-top: 25px;
+  }
+  .copyright
+  {
+    padding-top: 5px;
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+  

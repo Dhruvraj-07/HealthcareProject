@@ -1,0 +1,104 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .title {
+    flex: 1;
+  }
+  
+  .title h1 {
+    font-size: 32px;
+  }
+  
+  .logo {
+    max-width: 200px;
+  }
+  
+  .tabs {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tabs a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .container h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .address {
+    text-align: center;
+  }
+  
+  .foot-panel2,
+  .foot-panel4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
